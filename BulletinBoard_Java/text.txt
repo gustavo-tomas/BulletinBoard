@@ -1,0 +1,131 @@
+The collection of code that is the foundation of this book is for everyone who
+enjoys the art of programming. I've written this book in order to complement
+and explain the raw code, as some of the idioms may not be obvious. Software
+developers with many years of experience may enjoy revisiting familiar programming
+styles in the broad context of this book and learning about styles
+that may not be part of their normal repertoire.
+This book can be used as a textbook for advanced programming courses
+in Computer Science and Software Engineering programs. Additional teaching
+materials, such as lecture slides, are also available. The book is not designed
+for introductory programming courses; it is important for students to be able
+to crawl (i.e. learn to program under the illusion that there's only one way of
+doing things) before they can run (i.e. realize that there's a lot more variety).
+I expect that many of the readers will be students in their junior/senior year
+or in their early stages of graduate study. The exercise list at the end of
+each chapter is a good mechanism for testing the reader's understanding of
+each style. The suggested further readings are more appropriate for graduate
+students.
+This book may also be of interest to writers, especially those who know
+a little programming or have a strong interest in programming technology.
+Despite important dierences, there are many similarities between writing
+programs and writing in general.
+In the 1940s, the French writer Raymond Queneau wrote a jewel of a book
+called Exercises in Style, featuring 99 renditions of the exact same story, each
+written in a dierent style. The book is a masterpiece of writing technique, as
+it illustrates the many dierent ways a story can be told. The story being fairly
+trivial and always the same, the book highlights form, rather than content; it
+illustrates how the decisions we make in telling a story aect the perception
+of that story.
+Queneau's story is trivially simple and can be told in two sentences: The
+narrator is on the \S" bus and notices a man with a long neck who is wearing
+a hat, and who gets into an altercation with the man sitting next to him.
+Two hours later, the narrator sees this same man near the Saint Lazare train
+station, with a friend, and the friend is giving this man some advice regarding
+an extra button on his overcoat. That's it! He then goes through 99 renditions
+of this story using, for example, litotes, metaphors, animism, etc.
+Over the years, as an instructor of many programming-intensive courses, I
+noticed that often students have a hard time understanding the dierent ways
+of writing programs and of designing systems, in general. They have been
+trained in one, at most two, programming languages, so they understand only
+the styles that are encouraged by those languages, and have a hard time
+wrapping their heads around other styles. It's not their fault. Looking at
+the history of programming languages and the lack of pedagogical material on
+style in most Computer Science programs, one hardly gets exposed to the issue
+until after an enormous amount of experience is accumulated. Even then, style
+is seen as an intangible property of programs that remains elusive to explain
+to others { and over which many technical arguments ensue. So, in order to
+give programming styles the proper due, and inspired by Queneau, I decided
+to embark on the project of writing the exact same computational task in as
+many styles as I have come across over the years.
+So what is style? In Queneau's circle of intellectuals, a group known as
+Oulipo (for French Ouvroir de la litterature potentielle, roughly translated as
+\workshop of potential literature"), style was nothing but the consequence
+of creating under constraints, often based on mathematical concepts such as
+permutations or lipograms. These constraints are used as a means to create
+something intellectually interesting besides the story itself. The ideas caught
+on, and over the years, several literary works have been created using Oulipo's
+constraints.
+In this book, too, programming style is what results from writing programs
+under a set of constraints. Constraints can come from external sources or they
+can be self imposed; they can capture true challenges of the environment or
+they can be artficial; they can come from past experiences and measurable
+data or they can come from personal preferences. Independent of their origin,
+constraints are the seeds of style. By honoring dierent constraints, we can
+write a variety of programs that are virtually identical in terms of what they
+do, but that are radically dierent in terms of how they do it.
+In the universe of all things a good programmer must know, I see collections
+of programming styles as being as important as any collection of data
+structures and algorithms, but with a focus on human eects rather than on
+computing eects. Programs convey information not just to the computers
+but, more importantly, to the people who read them. As with any form of
+expression, the consequences of what is being said are shaped and in
+by how it is being said. An advanced programmer needs not to just be able to
+write correct programs that perform well; he/she needs to be able to choose
+appropriate styles for expressing those programs for a variety of purposes.
+Traditionally, however, it has been much easier to teach algorithms and
+data structures than it is to teach the nuances of programming expression.
+Books on data structures and algorithms all follow more or less the same formula:
+pseudo-code, explanation, and complexity analysis. The literature on
+programming tends to fall into two camps: books that explain programming
+languages and books that present collections of design or architectural pat-
+terns. However, there is a continuum in the spectrum of how to write programs
+that goes from the concepts that the programming languages encourage/enforce
+to the combination of program elements that end up making up the
+program; languages and patterns feed on each other, and separating them as
+two dierent things creates a false dichotomy. Having come across Queneau's
+body of work, it seemed to me that his focus on constraints as the basis for
+explaining expression styles was a perfectly good model for unifying a lot of
+important creative work in the programming world.
+I should note that I'm not the worst one to look at constraints as a good
+unifying principle for explaining style in software systems. The work on ar-
+chitectural styles has taken that approach for a long time. I confess that the
+notion that style arises from constraints (some things are disallowed, some
+things must exist, some things are limited, etc.) was a bit hard to understand
+atworst. After all, who wants to write programs under constraints? It wasn't
+until I came across Queneau's work that the idea made perfect sense.
+Like Queneau's story, the computational task in this book is trivial: given
+a text le, we want to produce the list of words in the ale and their frequencies,
+and print them out in decreasing order of frequency. This computational
+task is known as term frequency. This book contains 33 dierent styles for
+writing the term frequency task, one in each chapter. Unlike Queneau's book,
+I decided to verbalize the constraints in each style and explain the example
+programs. Given the target audience, I think it's important to provide those
+insights explicitly rather than leaving them to the reader's interpretation.
+Each chapter starts by presenting the constraints of the style, then it shows
+an example program; a detailed explanation of the code follows; most chapters
+have additional sections regarding the use of the style in systems design
+and another section on the historical context in which the programming style
+emerged. History is important; a discipline should not forget the origins of its
+core ideas. I hope the readers will be curious enough to follow through some
+of the suggested further readings.
+Why 33 styles? I chose 33 as a bounded personal challenge. Queneau's book
+has 99 styles. Had I set my goal to writing a book with 99 chapters, I probably
+never would have finished it! The public repository of code that is the basis
+for this book, however, is likely to continue to grow. The styles are grouped
+into nine categories: historical, basic, function composition, objects and object
+interactions, reection and metaprogramming, adversity, data-centric, concurrency, 
+and interactivity. The categories emerged as a way to organize the book,
+grouping together styles that are more related to each other than to the others.
+Other categorizations would be possible.
+Similar to Queneau's book, these exercises in programming style are exactly
+that: exercises. They are the sketches, or arpeggios, of software; they
+aren't the music. A piece of real software usually employs a variety of styles
+for the dierent parts of the system. Furthermore, all these styles can be mixed
+and matched, creating hybrids that are interesting in themselves.
+Finally, one last important remark. Although Queneau's book was the
+inspiration for this project, software is not exactly the same as the language
+arts; there are utility functions attached to software design decisions, i.e. some
+expressions are better than others for specific objectives.1 In this book I try
+to stand clear of judgments of good and bad, except in certain clear cases. It
+is not up to me to make those judgments, since they depend heavily on the
+context of each project.

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BulletinBoard">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/BulletinBoard.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
