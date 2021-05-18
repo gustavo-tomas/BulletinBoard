@@ -1,0 +1,60 @@
+hile spoken or signed language is a more or less universal human competence
+that has been characteristic of the species from the beginning and that is
+commonly acquired by human beings without systematic instruction, writing is a
+technology of relatively recent history that must be taught to each generation
+of children. Historical accounts of the evolution of writing systems have until
+recently concentrated on a single aspect, increased efficiency, with the Greek
+invention of the alphabet being regarded as the culmination of a long historical
+evolution. This efficiency is a product of a limited and manageable set of
+graphs that can express the full range of meanings in a language. As the British
+classicist Eric A. Havelock wrote, The Polish American Assyriologist Ignace Gelb
+distinguished four stages in this evolution, beginning with picture writing,
+which expressed ideas directly; followed by word-based writing systems; then by
+sound-based syllabic writing systems, including unvocalized syllabaries or
+consonantal systems; and concluding with the Greek invention of the alphabet.
+
+The invention of the alphabet is a major achievement of Western culture. It is
+also unique; the alphabet was invented only once, though it has been borrowed by
+many cultures. It is a model of analytic thinking, breaking down perceptible
+qualities like syllables into more basic constituents. And because it is capable
+of conveying subtle differences in meaning, it has come to be used for the
+expression of a great many of the functions served by speech. The alphabet
+requires little of the reader beyond familiarity with its orthography. It allows
+the reader to decipher words newly encountered and permits the invention of
+spellings for new patterns of sound, including proper names (a problem that is
+formidable for nonalphabetic systems). Finally, its explicitness permits readers
+to make a relatively sharp distinction between the tasks of deciphering and
+interpreting. Less explicit orthographies require the reader first to grasp the
+meaning of a passage as a whole in order to decide which of several possible
+word meanings a particular graphic string represents.
+
+It must be remembered, however, that efficiency depends not only on the nature
+of the writing system but also on the functions required of it by its users, for
+orthographies are invented to serve particular cultural purposes. Furthermore,
+an orthography invented to satisfy one purpose may acquire new applications. For
+instance, writing systems invented to serve mnemonic purposes were subsequently
+elaborated and used for communicative and archival purposes. Orthographies were
+not invented as art forms, but, once invented, they could serve aesthetic
+functions.
+
+Notions of explicitness of representation depend on the morphophonemic structure
+of the language. An alphabet was a notable advance for representing the Greek
+language but not necessarily for representing a Semitic language. Moreover, for
+languages such as Chinese and Japanese, which have simple syllabic structures
+and a great number of homophones, a writing system that depended on phonological
+structure, such as a syllabary or an alphabet, would be extremely inefficient.
+It is with such factors in mind that late 20th-century accounts of writing
+systems stressed how many different orthographies may function efficiently,
+given the particular language they are used to represent. Just as linguists have
+abandoned the notion of progressive evolution of languages, with some languages
+ranking as more primitive than others, so historians of writing have come to
+treat existing orthographies as appropriate to the languages they represent.
+
+Nonetheless, all contemporary orthographies have a history of development, and
+there are many common features in these histories. It is unlikely that writing
+was invented only once and then borrowed by different cultural groups. While all
+Western writing systems may be traced back to the beginnings of symbol making in
+Sumer, there is no reason to believe that Asian writing systems were borrowed
+from the Sumerian form. Consequently, there are two quite separate histories of
+writing, that of the writing system developed by the Sumerians and that of the
+one developed by the Chinese.
